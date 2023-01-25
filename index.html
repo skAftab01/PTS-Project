@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div id="navbar">
+            <h1>PTS</h1>
+            <ul class="navlist">
+                <li class="nav-li"><a href="">Home</a> </li>
+                <li class="nav-li"><a href="Highest.php">Highest</a> </li>
+                <li class="nav-li"><a href="login.php">login</a> </li>
+                <li class="nav-li"><a href="register.php">Register</a> </li>
+                <li class="nav-li logout"><a href="logout.php">Logout <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                            <path fill-rule="evenodd"
+                                d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg></a> </li>
+
+            </ul>
+
+
+        </div>
+
+        <div class="last">
+            <button class="btnlast ">Attendence</button><br>
+            <button class="btnlast ">Activities</button><br>
+            <button class="btnlast ">Notice</button><br>
+            <button class="btnlast ">Public</button><br>
+            <button class="btnlast ">Message</button><br>
+        </div>
+
+    </div>
+
+
+
+
+    <main class="container">
+        <p>Your</p>
+        <section class="animation">
+
+            <div class="first concern1">
+                <div class="concern">Awareness</div>
+            </div>
+            <div class="second concern1">
+                <div class="concern">Future</div>
+            </div>
+            <div class="third concern1">
+                <div class="concern">Study</div>
+            </div>
+
+
+        </section>
+        <div class="best"></div><br>
+        <p class='pp'>is our concern</p>
+    </main>
+    <!-- ------------------------------------------------------------------ -->
+    <section class="quote">
+        <style>
+            * {
+                box-sizing: border-box
+            }
+
+            body {
+                font-family: Verdana, sans-serif;
+                margin: 0
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                position: relative;
+                background: #f1f1f1f1;
+            }
+
+            /* Slides */
+            .mySlides {
+                display: none;
+                padding: 80px;
+                text-align: center;
+            }
+
+            /* Next & previous buttons */
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                margin-top: -30px;
+                padding: 16px;
+                color: #888;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+                position: absolute;
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+                color: white;
+            }
+
+            /* The dot/bullet/indicator container */
+            .dot-container {
+                text-align: center;
+                padding: 20px;
+                background: #ddd;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 1.5s;
+            }
+
+            /* Add a background color to the active dot/circle */
+            .active,
+            .dot:hover {
+                background-color: #717171;
+            }
+
+            /* Add an italic font style to all quotes */
+            q {
+                font-style: italic;
+            }
+
+            /* Add a blue color to the author */
+            .author {
+                color: cornflowerblue;
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+                    <p class="author">- John Keats</p>
+                </div>
+
+                <div class="mySlides">
+                    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+                    <p class="author">- Ernest Hemingway</p>
+                </div>
+
+                <div class="mySlides">
+                    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+                    <p class="author">- Thomas A. Edison</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+    </section>
+    <!-- ---------------------------------------------------------- -->
+    <section class="attend">
+        <div class="containeri">
+            <p class="text" style="font-weight: bolder;">ATTENDENCE</p>
+        </div>
+        <hr>
+
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
+
+        <script type="application/javascript" src="rpie.js"></script>
+
+        <div class="false-For-Bottom-Text">
+            <div class="w3-container w3-center w3-animate-right">
+                <canvas id="myCanvas" width="300" height="300"></canvas>
+            </div>
+
+
+
+        </div>
+
+        <div class="subjects">
+            <button class="butn b1"><span></span>English 70%</button>
+            <button class="butn b2"><span></span>Physics 50%</button>
+            <button class="butn b3"><span></span>Chemistry 77%</button>
+            <button class="butn b4"><span></span>Biology 30%</button>
+            <button class="butn b5"><span></span>Hindi 59%</button>
+            <button class="butn b6"><span></span>Mathamatics 77%</button>
+        </div>
+
+
+        <script type="text/javascript">
+
+            var obj = {
+                values: [74.4, 25.6],
+                colors: ['#66CC00', '#FF0000'],
+                animation: true, // Takes boolean value & default behavious is false
+                animationSpeed: 10, // Time in miliisecond & default animation speed is 20ms
+                fillTextData: true, // Takes boolean value & text is not generate by default 
+                fillTextColor: '#000000', // For Text colour & default colour is #fff (White)
+                fillTextAlign: 1.30, // for alignment of inner text position i.e. higher values gives closer view to center & default text alignment is 1.85 i.e closer to center
+                fillTextPosition: 'inner', // 'horizontal' or 'vertical' or 'inner' & default text position is 'horizontal' position i.e. outside the canvas
+                doughnutHoleSize: 50, // Percentage of doughnut size within the canvas & default doughnut size is null
+                doughnutHoleColor: '#feeb8d', // For doughnut colour & default colour is #fff (White)
+                offset: 1, // Offeset between two segments & default value is null
+                pie: 'normal', // if the pie graph is single stroke then we will add the object key as "stroke" & default is normal as simple as pie graph
+                isStrokePie: {
+                    stroke: 20, // Define the stroke of pie graph. It takes number value & default value is 20
+                    overlayStroke: true, // Define the background stroke within pie graph. It takes boolean value & default value is false
+                    overlayStrokeColor: '#fee4ab5d', // Define the background stroke colour within pie graph & default value is #eee (Grey)
+                    strokeStartEndPoints: 'Yes', // Define the start and end point of pie graph & default value is No
+                    strokeAnimation: true, // Used for animation. It takes boolean value & default value is true
+                    strokeAnimationSpeed: 40, // Used for animation speed in miliisecond. It takes number & default value is 20ms
+                    fontSize: '60px', // Used to define text font size & default value is 60px
+                    textAlignement: 'center', // Used for position of text within the pie graph & default value is 'center'
+                    fontFamily: 'Arial', // Define the text font family & the default value is 'Arial'
+                    fontWeight: 'bold' //  Define the font weight of the text & the default value is 'bold'
+                }
+            };
+
+
+            //Generate myCanvas		
+            generatePieGraph('myCanvas', obj);
+
+
+
+        </script>
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- --------------------------------------- -->
+
+    <section class='download-report'>
+
+        <style>
+            .download-report {
+                background-color: white;
+            }
+
+            #qr {
+                text-align: center;
+                background-image: none;
+            }
+
+
+
+
+            #imgg {
+                filter: blur(8px);
+                height: 200px;
+                display: block;
+            }
+
+            #show {
+                margin: 20px auto;
+                width: 82px;
+                height: 39px;
+                border: 1px solid #63c7c7;
+                border-radius: 0px;
+                font-size: 18px;
+                box-shadow: 2px 2px #193a3a;
+                background: #63c7c7;
+            }
+
+            #show:hover {
+                background-color: #448686;
+            }
+
+            #show:active {
+                background-color: #63c7c7;
+            }
+
+            #pic-download:hover {
+                background-color: #448686;
+            }
+
+            #pic-download:active {
+                background-color: #63c7c7;
+                ;
+            }
+
+
+            #big {
+                display: flex;
+                justify-content: space-around;
+                padding: 55px auto;
+            }
+
+            #img1 {
+                height: 200px;
+                display: block;
+
+            }
+
+            #pic {
+                text-align: center;
+            }
+
+
+
+            #pic-download {
+                margin: 20px auto;
+                width: 100px;
+                height: 39px;
+                border: 1px solid #63c7c7;
+                border-radius: 0px;
+                font-size: 18px;
+                box-shadow: 2px 2px #193a3a;
+                background: #63c7c7;
+            }
+        </style>
+
+        <body>
+            <div id="big">
+                <div id="pic">
+                    <img id="img1" src="down.png" alt="">
+                    <button id="pic-download">Download</button>
+
+                </div>
+
+                <DIV id="qr">
+                    <img id="imgg" src="QRR.png" alt="">
+                    <button id="show" onclick="show()">Show</button>
+                </DIV>
+            </div>
+
+
+            <script>
+
+                var str = document.getElementById('show');
+                var img = document.getElementById('imgg');
+                function show() {
+                    if (str.innerHTML == 'Show') {
+                        document.getElementById('show').innerHTML = 'Hide';
+                        document.getElementById('imgg').style.filter = 'none';
+
+                    }
+
+                    else {
+                        document.getElementById('show').innerHTML = 'Show';
+                        document.getElementById('imgg').style.filter = 'blur(8px)';
+                    }
+
+                }
+
+            </script>
+
+    </section>
+
+
+
+    <style>
+        .quiz-chartTip {
+            padding: 5px 10px;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, .9);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+            position: absolute;
+            z-index: 50;
+            max-width: 250px;
+        }
+
+        .quiz-graph {
+            padding: 10px;
+            height: 370px;
+            width: 100%;
+        }
+
+        .quiz-graph .x-labels {
+            text-anchor: middle;
+        }
+
+        .quiz-graph .y-labels {
+            text-anchor: end;
+        }
+
+        .quiz-graph .quiz-graph-grid {
+            stroke: #ccc;
+            stroke-dasharray: 0;
+            stroke-width: 1;
+        }
+
+        .label-title {
+            text-anchor: middle;
+            text-transform: uppercase;
+            font-size: 12px;
+            fill: gray;
+        }
+
+        .quiz-graph-dot,
+        .quiz-graph-start-dot {
+            fill: rgba(0, 112, 210, 1);
+            stroke-width: 2;
+            stroke: white;
+        }
+
+
+        
+    </style>
+    <section id="activity">
+
+
+        <div class="slds-p-top--medium act">
+            <div>
+                <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    class="quiz-graph">
+                    <defs>
+                        <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+                            <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#e5e5e5" stroke-width="1"></path>
+                        </pattern>
+                    </defs>
+                    <rect x="50" width="calc(100% - 50px)" height="300px" fill="url(#grid)" stroke="gray"></rect>
+
+
+
+                    <g class="x-labels">
+                        <text x="150" y="320">Punctual</text>
+                        <text x="250" y="320">Friends</text>
+                        <text x="350" y="320">Health</text>
+                        <text x="450" y="320">English</text>
+                        <text x="550" y="320">Body Language</text>
+                        <text x="650" y="320">Confidence</text>
+                        <text x="750" y="320">Discipline</text>
+                    </g>
+                    <g class="y-labels">
+                        <text x="42" y="5">Great</text>
+                        <text x="42" y="55">Excellent</text>
+                        <text x="42" y="105">Good</text>
+                        <text x="42" y="155">Satisfactory</text>
+                        <text x="42" y="205">Bad</text>
+                        <text x="42" y="255">Worst</text>
+                        <text x="42" y="305">0</text>
+                    </g>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:rgba(99,224,238,.5);stop-opacity:1"></stop>
+                        <stop offset="100%" style="stop-color:white;stop-opacity:0"></stop>
+                    </linearGradient>
+                    <polyline fill="url(#grad)" stroke="#34becd" stroke-width="0" points="
+            50,300
+            51,0
+            150,100
+            250,80
+            350,160
+            450,100
+            550,100
+            650,150
+            750,200
+            750,300
+            "></polyline>
+
+                    <polyline fill="none" stroke="#34becd" stroke-width="2" points="
+            50,0
+            150,100
+            250,80
+            350,160
+            450,100
+            550,100
+            650,150
+            750,200
+            "></polyline>
+                    <g>
+                        <circle class="quiz-graph-start-dot" cx="50" cy="0" data-value="7.2" r="6"></circle>
+                        <circle class="quiz-graph-dot" cx="150" cy="100" data-value="8.1" r="6" q-title="Q1"
+                            answer-count="200" percent-value="66%"></circle>
+                        <circle class="quiz-graph-dot" cx="250" cy="80" data-value="7.7" r="6" q-title="Q2"
+                            answer-count="220" percent-value="73%"></circle>
+                        <circle class="quiz-graph-dot" cx="350" cy="160" data-value="6.8" r="6" q-title="Q3"
+                            answer-count="140" percent-value="46%"></circle>
+                        <circle class="quiz-graph-dot" cx="450" cy="100" data-value="6.7" r="6" q-title="Q4"
+                            answer-count="200" percent-value="66%"></circle>
+                        <circle class="quiz-graph-dot" cx="550" cy="100" data-value="6.7" r="6" q-title="Q5"
+                            answer-count="200" percent-value="66%"></circle>
+                        <circle class="quiz-graph-dot" cx="650" cy="150" data-value="6.7" r="6" q-title="Q6"
+                            answer-count="150" percent-value="50%"></circle>
+                        <circle class="quiz-graph-dot" cx="750" cy="200" data-value="6.7" r="6" q-title="Complited Quiz"
+                            answer-count="100" percent-value="33%"></circle>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="notice">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Raleway:wght@300;400;500;600&display=swap');
+
+        
+            #myDIV {
+                border: 1px solid blue;
+                margin: 80px;
+                margin-top: 30px;
+                height: 250px;
+                margin-bottom: 0;
+
+                overflow: auto;
+            }
+
+            #content {
+                height: fit-content;
+                width: 1084px;
+                padding: 10px;
+                background-color: #04ffee1c;
+                font-size: 23px;
+            }
+
+            .notice-head {
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+                text-shadow: 5px 3px 5px grey;
+                font-size: 56px;
+            }
+        </style>
+
+        <body>
+            <center>
+                <h1 class="notice-head">Notice</h1>
+            </center>
+
+
+            <div id="myDIV">
+                <div id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eos, et unde
+                    suscipit
+                    commodi eius hic molestiae sit libero consectetur esse saepe nesciunt eaque enim omnis corporis
+                    mollitia iusto
+                    sequi sunt, est consequuntur dolore tempore. <br> Iusto, saepe. Modi quam consequatur rem eveniet
+                    sint fuga
+                    voluptates voluptatibus omnis vel. Odio impedit incidunt temporibus omnis est obcaecati quos
+                    blanditiis
+                    assumenda, natus doloremque cum veritatis officia voluptate numquam illum officiis ipsa voluptatum
+                    ea? Odio
+                    vero laudantium dignissimos omnis incidunt rem adipisci, laboriosam expedita consequuntur. <br>
+                    fugit quo
+                    explicabo aliquid veritatis fuga debitis ratione ut maxime vel corporis ipsa maiores qui. Nulla
+                    labore
+                    distinctio minus excepturi consequuntur, animi hic at repudiandae voluptatibus eos reiciendis
+                    similique
+                    incidunt. Nisi, nesciunt temporibus. Molestias assumenda quis nemo ex non velit, unde odit cum ab
+                    quos rem et
+                    saepe dicta, fugit excepturi quidem tenetur? Iusto quos id hic sequi fugit similique tempora quo
+                    odio,
+                    provident quibusdam beatae, porro voluptas perspiciatis. Expedita impedit minima rerum. <br> Id iure
+                    at labore
+                    molestiae eveniet, alias tenetur nesciunt iusto deleniti ullam et ratione obcaecati, distinctio
+                    explicabo
+                    minima molestias corrupti accusamus! Quidem debitis mollitia ducimus corrupti nesciunt natus
+                    corporis
+                    accusantium necessitatibus minus? Nisi ratione assumenda voluptatum, beatae provident alias quisquam
+                    dolor,
+                    suscipit eum aliquid ducimus rem.</div>
+            </div>
+
+            <p id="demo"></p>
+
+            <script>
+                const element = document.getElementById("content");
+                let y = element.scrollHeight;
+                let x = element.scrollWidth;
+
+            </script>
+    </section>
+    <style>
+        .button {
+            position: relative;
+            background-color: transparent;
+            border: 1px solid green;
+            font-size: 23px;
+            color: black;
+            padding: 0px;
+            width: 124px;
+            text-align: center;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            height: 48px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .button:after {
+            content: "";
+            background: #90EE90;
+            display: block;
+            position: absolute;
+            padding-top: 300%;
+            padding-left: 350%;
+            margin-left: -20px !important;
+            margin-top: -120%;
+            opacity: 0;
+            transition: all 0.8s
+        }
+
+        .button:active:after {
+            padding: 0;
+            margin: 0;
+            opacity: 1;
+            transition: 0s
+        }
+
+        .button:focus {
+            background-color: #90EE90;
+
+        }
+
+        .checked-div {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+
+
+
+    </script>
+
+
+    <div class="checked-div">
+        <button id="checked" onclick="check()" class="button">Seen</button>
+    </div>
+
+
+
+
+
+
+
+
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(0 0 0), rgb(138 138 138 / 22%)), url(boys.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #navbar {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        padding: 35px 0;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    #navbar ul li {
+        display: inline-block;
+        margin: 5px 20px;
+        list-style: none;
+
+    }
+
+    #navbar h1 {
+        color: white;
+    }
+
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: 0.5s;
+
+    }
+
+    #navbar ul li a:hover {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 20px;
+        text-shadow: 0 0 7px rgba(2, 196, 255, 0.764), 0 0 3px rgb(0, 187, 255);
+    }
+
+
+
+
+    .pp {
+        text-shadow: 0 0 7px rgba(2, 196, 255, 0.764), 0 0 3px rgb(0, 187, 255);
+        display: block;
+        margin: -63px 26px;
+    }
+
+    .container {
+        position: absolute;
+        top: 400px;
+        left: 15px;
+        z-index: 1;
+        color: #e5e5e5;
+        font-size: 2.26rem;
+        text-transform: uppercase;
+        height: fit-content;
+
+
+
+
+
+    }
+
+    .logout {
+        margin-left: 12px;
+    }
+
+    .animation {
+        height: 50px;
+        overflow: hidden;
+        margin-left: 1rem;
+    }
+
+    .animation>div>div {
+        padding: 0.25rem 0.75rem;
+        height: 2.81rem;
+        margin-bottom: 2.81rem;
+        display: inline-flex;
+    }
+
+    .animation div:first-child {
+        animation: text-animation 8s infinite;
+    }
+
+    .first div {
+        background-color: #20a7d8;
+
+    }
+
+    .second div {
+        background-color: #CD921E;
+    }
+
+    .third div {
+        background-color: #c10528;
+
+    }
+
+    svg {
+        height: 23px;
+        width: 41px;
+        margin: -2px 0;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+
+    @keyframes text-animation {
+        0% {
+            margin-top: 0;
+        }
+
+        10% {
+            margin-top: 0;
+        }
+
+        20% {
+            margin-top: -5.62rem;
+        }
+
+        30% {
+            margin-top: -5.62rem;
+        }
+
+        40% {
+            margin-top: -11.24rem;
+        }
+
+        60% {
+            margin-top: -11.24rem;
+        }
+
+        70% {
+            margin-top: -5.62rem;
+        }
+
+        80% {
+            margin-top: -5.62rem;
+        }
+
+        90% {
+            margin-top: 0;
+        }
+
+        100% {
+            margin-top: 0;
+        }
+
+
+    }
+
+    .best {
+        display: block;
+
+    }
+
+
+
+    .concern {
+        padding: 0.25rem 0.75rem;
+        height: 2.81rem;
+        margin-bottom: 2.81rem;
+        display: inline-flex;
+    }
+
+
+    .last {
+        text-align: right;
+        margin: 119px 27px;
+        display: block;
+    }
+
+    .btnlast {
+        height: 50px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+        background: transparent;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(0, 131, 88);
+        opacity: 0.6;
+        box-shadow: 0 4px #999;
+
+    }
+
+    .btnlast:hover {
+        background-color: rgb(0, 135, 90);
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .btnlast:active {
+        background-color: rgb(127, 241, 203);
+    }
+
+
+
+    .attend {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        padding: 20px 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #myCanvas {
+        margin-top: 20px;
+
+    }
+
+    /* link {
+	padding: 10px;
+} */
+
+    .containeri {
+        width: 100%;
+    }
+
+    .text {
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+        margin-left: 50%;
+        transform: translateX(-200%);
+        opacity: 0;
+        animation: slide-in-anim 1.5s ease-out forwards;
+    }
+
+    @keyframes slide-in-anim {
+        20% {
+            opacity: 0;
+        }
+
+        60% {
+            transform: translateX(-45%);
+        }
+
+        75% {
+            transform: translateX(-52%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(-50%);
+        }
+    }
+
+    .subjects {
+        display: contents;
+        margin: 10px 74px;
+
+
+
+    }
+
+
+
+    .butn {
+
+        width: 500px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: none;
+        background: rgb(159, 172, 228);
+        color: black;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 0;
+        position: relative;
+
+    }
+
+    span {
+        width: 0;
+        height: 100%;
+        background: orangered;
+        top: 0;
+        left: 0;
+        position: absolute;
+        transition: 0.5s;
+        z-index: -1;
+    }
+
+    .butn span {
+        width: 50%;
+    }
+
+    .b1 span {
+        width: 70%;
+    }
+
+    .b2 span {
+        width: 50%;
+    }
+
+    .b3 span {
+        width: 77%;
+    }
+
+    .b4 span {
+        width: 30%;
+    }
+
+    .b5 span {
+        width: 59%;
+    }
+
+    .b6 span {
+        width: 77%;
+    }
+
+
+    .act {
+        margin: 30px;
+    }
+</style>
