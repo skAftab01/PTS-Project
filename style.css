@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0 0 0), rgb(138 138 138 / 22%)), url(boys.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a {
+    font-size: 20px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    list-style: none;
+
+}
+
+#navbar h1 {
+    color: white;
+}
+
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+
+#navbar ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 0 7px rgba(2, 196, 255, 0.764), 0 0 3px rgb(0, 187, 255);
+}
+
+
+
+
+.pp {
+    text-shadow: 0 0 7px rgba(2, 196, 255, 0.764), 0 0 3px rgb(0, 187, 255);
+    display: block;
+    margin: -63px 26px;
+}
+
+.container {
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    z-index: 1;
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    height: fit-content;
+
+
+
+
+
+}
+
+.logout {
+    margin-left: 12px;
+}
+
+.animation {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animation>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-flex;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first div {
+    background-color: #20a7d8;
+
+}
+
+.second div {
+    background-color: #CD921E;
+}
+
+.third div {
+    background-color: #c10528;
+
+}
+
+svg {
+    height: 23px;
+    width: 41px;
+    margin: -2px 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+
+}
+
+.best {
+    display: block;
+
+}
+
+
+
+.concern {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-flex;
+}
+
+
+.last {
+    text-align: right;
+    margin: 119px 27px;
+    display: block;
+}
+
+.btnlast {
+    height: 50px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 35px;
+    border: 2px solid black;
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 131, 88);
+    opacity: 0.6;
+    box-shadow: 0 4px #999;
+
+}
+
+.btnlast:hover {
+    background-color: rgb(0, 135, 90);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btnlast:active {
+    background-color: rgb(127, 241, 203);
+}
+
+
+
+.attend {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#myCanvas {
+    margin-top: 20px;
+
+}
+
+/* link {
+	padding: 10px;
+} */
+
+.containeri {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+    margin-left: 50%;
+    transform: translateX(-200%);
+    opacity: 0;
+    animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+    20% {
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateX(-45%);
+    }
+
+    75% {
+        transform: translateX(-52%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+}
+
+.subjects {
+    display: contents;
+    margin: 10px 74px;
+ 
+
+
+}
+
+
+
+.butn {
+
+    width: 500px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    background: rgb(159, 172, 228);
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+  
+}
+
+span {
+    width: 0;
+    height: 100%;
+    background: orangered;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.butn span {
+    width: 50%;
+}
+
+.b1 span{
+    width: 70%;
+}
+.b2 span{
+    width: 50%;
+}
+.b3 span{
+    width: 77%;
+}
+.b4 span{
+    width: 30%;
+}
+.b5 span{
+    width: 59%;
+}
+.b6 span{
+    width: 77%;
+}
+
+
+.act{
+    margin: 30px;
+}
